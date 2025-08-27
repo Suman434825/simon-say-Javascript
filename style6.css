@@ -1,0 +1,12 @@
+.box{
+    text-align: center;
+    height: 100px;
+    width:1000px;
+    border: 1px solid black ;
+    margin: auto;
+}
+
+body {
+    text-align: center;
+
+}
