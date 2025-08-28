@@ -1,12 +1,37 @@
-.box{
-    text-align: center;
-    height: 100px;
-    width:1000px;
-    border: 1px solid black ;
-    margin: auto;
-}
-
 body {
-    text-align: center;
-
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: white;
 }
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-one, .line-two {
+  display: flex;
+}
+
+.btn {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.red { background: red; }
+.yellow { background: yellow; }
+.green { background: green; }
+.purple { background: purple; }
+
+.flash {
+  background: white !important;
+}
+
+.userFlash {
+  opacity: 0.5;
+}
+
